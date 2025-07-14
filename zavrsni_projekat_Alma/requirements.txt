@@ -1,0 +1,10 @@
+pandas
+sqlalchemy
+pyodbc
+pandas
+matplotlib
+seaborn
+scikit-learn
+notebook
+nbconvert
+nbformat
