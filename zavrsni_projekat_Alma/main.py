@@ -10,6 +10,12 @@ df = load_dataset(dataset_path)
 df_clean = clean_dataset(df)
 load_to_mssql(df_clean, table_name, connection_string)
 
+import pyodbc
+from analysis import upiti
+
+if __name__ == "__main__":
+    upiti.pokreni_upite()
+
 from sqlalchemy import create_engine
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
